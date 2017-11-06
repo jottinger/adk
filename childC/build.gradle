@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+dependencies {
+    compile project(':childA')
+    testCompile project(':childB')
+    testCompile 'org.junit.vintage:junit-vintage-engine:4.12.1'
+}
